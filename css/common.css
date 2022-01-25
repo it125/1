@@ -1,0 +1,326 @@
+@charset "UTF-8";
+
+/* 폰트 */
+@font-face {
+	font-family: 'scdream1';
+	src: url('../font/scdream1.woff') format('woff');
+	src: url('../font/scdream1.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'scdream2';
+	src: url('../font/scdream2.woff') format('woff');
+	src: url('../font/scdream2.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'scdream3';
+	src: url('../font/scdream3.woff') format('woff');
+	src: url('../font/scdream3.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'scdream4';
+	src: url('../font/scdream4.woff') format('woff');
+	src: url('../font/scdream4.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'scdream5';
+	src: url('../font/scdream5.woff') format('woff');
+	src: url('../font/scdream5.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'scdream6';
+	src: url('../font/scdream6.woff') format('woff');
+	src: url('../font/scdream6.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'scdream7';
+	src: url('../font/scdream7.woff') format('woff');
+	src: url('../font/scdream7.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'scdream8';
+	src: url('../font/scdream8.woff') format('woff');
+	src: url('../font/scdream8.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'scdream9';
+	src: url('../font/scdream9.woff') format('woff');
+	src: url('../font/scdream9.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('../font/SpoqaHanSansNeo-Regular.eot') format('eot');
+    src: url('../font/SpoqaHanSansNeo-Regular.woff') format('woff');
+    src: url('../font/SpoqaHanSansNeo-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    border: 0;
+}
+
+html, body, div, span, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+::selection {
+	background: #ffb10a;
+}
+/* header */
+#header {
+	width: 100%;
+	height: 70px;
+	z-index: 10;
+	position: fixed;
+	background: #ffb10a;
+}
+
+#header .h-wrap {
+	/* width: 1440px;
+	margin: 0 auto; */
+	position: relative;
+	margin-top: 25px;
+}
+
+#header h1 {
+	text-align: center;
+}
+
+#header .nav-left {
+	width: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: left;
+}
+
+#header .nav-left > .gnb {
+	margin-left: 60px;
+}
+
+#header .nav-left > .gnb > li {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 60px;
+}
+
+#header .gnb > li > a {
+	font-family: 'scdream5', sans-serif;
+	color: #fff;
+}
+
+#header .search {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#header .nav-right {
+	width: 50%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: right;
+}
+
+#header .nav-right > .gnb {
+
+}
+
+#header .nav-right > .gnb > li {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 60px;
+}
+
+#header .hamburger {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#header .lnb {
+	width: 160px;
+	margin-top: 25px;
+	text-align: center;
+	line-height: 50px;
+	background: rgba(0, 0, 0, 0.8);
+	position: absolute;
+	visibility: hidden;
+}
+
+#header .nav-right .lnb {
+	
+}
+#header .nav-left .lnb {
+
+}
+#header .lnb > li {
+	
+}
+
+#header .lnb > li > a {
+	font-family: 'scdream4', sans-serif;
+	padding: 10px;
+	color: #fff;
+	font-size: 0.7em;
+}
+
+#footer {
+	width: 100%;
+	background: #ffb10a;
+	
+}
+
+#footer .f-wrap {
+	text-align: center;
+	padding: 40px;
+}
+
+#footer .sns {
+	margin-bottom: 40px;
+}
+
+#footer .sns > div {
+	display: inline-block;
+}
+
+#footer .sns span {
+	position: relative;
+	left: 3px;
+	bottom: 3px;
+	margin-right: 30px;
+	font-family: 'SpoqaHanSansNeo-Regular', sans-serif;
+	color: #fff;
+}
+
+#footer figure {
+	display: inline-block;
+}
+
+#footer .f-info1 {
+	margin-bottom: 30px;
+}
+
+#footer .f-info1 ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#footer .f-info1 ul li a {
+	font-family: 'SpoqaHanSansNeo-Regular', sans-serif;
+	color: #fff;
+}
+
+#footer .f-info1 ul li:nth-child(5) a {
+	color: orangered;
+}
+
+#footer .f-info2 {
+	margin-bottom: 30px;
+}
+
+#footer .f-info2 ul li {
+	margin-bottom: 10px;
+}
+
+#footer .f-info2 ul li:nth-child(3) {
+	display: inline-block;
+}
+
+#footer .f-info2 ul li:nth-child(4) {
+	display: inline-block;
+}
+
+#footer .f-info2 ul li:nth-child(5) {
+	display: inline-block;
+}
+
+#footer .f-info2 ul li span {
+	font-family: 'SpoqaHanSansNeo-Regular', sans-serif;
+	color: #fff;
+}
+
+#footer .copyright {
+	font-family: 'SpoqaHanSansNeo-Regular', sans-serif;
+	color: #fff;
+}
+

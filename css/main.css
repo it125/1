@@ -1,0 +1,407 @@
+#s01 {
+    width: 100%;
+    position: relative;
+    margin-bottom: 150px;
+    padding-top: 50px;
+}
+
+#s02 {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 150px;
+}
+
+#s02 .products {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#s02 .products .s02-title::before {
+    content: url('../images/line.png');
+    position: absolute;
+    left: -23px;
+    top: 0px;
+}
+
+#s02 .products .s02-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#s02 .products .s02-title h2 {
+    font-family: 'scdream2', sans-serif;
+    font-size: 2.3em;
+    letter-spacing: -2px;
+    color: #ffb10a;
+    margin-bottom: 10px;
+}
+
+#s02 .products .s02-title p {
+    font-family: 'scdream3', sans-serif;
+    margin-bottom: 60px;
+    font-size: 1.2em;
+    line-height: 23px;
+}
+
+#s02 .products .s02-title span {
+    font-family: 'scdream3', sans-serif;
+}
+
+#s02 .products .s02-content figure {
+    height: 180px;
+}
+
+#s02 .products .s02-content figure img {
+    width: 150px;
+}
+
+#s02 .products .s02-content p {
+    font-family: 'scdream4', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#s02 .products .s02-hover{
+    visibility: hidden;
+}
+
+.swiper-wrap {
+    margin-right: 500px;
+    position: relative;
+}
+
+.swiper-slide {
+    text-align: center;
+}
+
+.swiper-container {
+    width: 800px;
+}
+
+#s03 {
+    width: 100%;
+    height: 802px;
+    margin-bottom: 150px;
+}
+
+#s03 .event {
+    width: 1024px;
+    margin: 0 auto;
+    height: auto;
+    position: relative;
+}
+
+#s03 .event .s03-title::after {
+    content: url('../images/line.png');
+    position: absolute;
+    left: 180px;
+    top: 0px;
+}
+
+#s03 .event .s03-title h2 {
+    font-family: 'scdream2', sans-serif;
+    font-size: 2.3em;
+    letter-spacing: -2px;
+    color: #ffb10a;
+    margin-bottom: 10px;
+}
+
+#s03 .event .s03-title p {
+    font-family: 'scdream3', sans-serif;
+    font-size: 1.2em;
+    line-height: 23px;
+    margin-bottom: 60px;    
+}
+
+#s03 .event .s03-title span {
+    font-family: 'scdream3', sans-serif;
+}
+
+#s03 .event .s03-hover{
+    display: none;
+}
+
+#s03 .event .s03-content {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#s03 .event .s03-content .event1 figure {
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#s03 .event .s03-content .event2 figure {
+    padding-right: 0;
+    padding-bottom: 20px;
+}
+
+#s03 .event .s03-content .event3 figure {
+    padding-right: 20px;
+    padding-bottom: 0;
+}
+
+#s03 .event .s03-content .event4 figure {
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+
+#s03 .event .s03-content img {
+    width: 380px;
+}
+
+#s04 {
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+#s04 .store {
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#s04 .store .s04-title::before {
+    content: url('../images/line.png');
+    position: absolute;
+    right: 160px;
+    top: 0px;
+}
+
+#s04 .store .s04-title {
+    position: absolute;
+    right: 0;
+}
+
+#s04 .store .s04-title h2 {
+    font-family: 'scdream2', sans-serif;
+    font-size: 2.3em;
+    letter-spacing: -2px;
+    color: #ffb10a;
+    margin-bottom: 10px;
+}
+
+#s04 .store .s04-title p {
+    font-family: 'scdream3', sans-serif; 
+    font-size: 1.2em;
+    line-height: 23px;
+}
+
+#s04 .s04-content {
+}
+
+#s04 .s04-content .search-box {
+    
+}
+
+#s04 .s04-content .search-box figure img {
+    width: 800px;
+    opacity: 80%;
+}
+
+#s04 .s04-content .search-bar {
+    position: absolute;
+    top: 60%;
+    left: 22%;
+}
+
+#s04 .s04-content .search-bar input {
+    font-family: 'scdream4', sans-serif;
+    font-size: 1em;
+    width: 300px;
+    height: 50px;
+    padding: 15px;
+    border: none;
+    background: #fff;
+    color: #000;
+}
+
+#s04 .s04-content .search-bar button {
+    float: right;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+#s05 {
+    width: 100%;
+    height: 495px;
+    margin-bottom: 150px;
+}
+
+#s05 .delivery {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#s05 .delivery .s05-title::after {
+    content: url('../images/line.png');
+    position: absolute;
+    left: 180px;
+    top: 0px;
+}
+
+#s05 .delivery .s05-title {
+}
+
+#s05 .delivery .s05-title h2 {
+    font-family: 'scdream2', sans-serif;
+    font-size: 2.3em;
+    letter-spacing: -2px;
+    color: #ffb10a;
+    margin-bottom: 10px;
+}
+
+#s05 .delivery .s05-title p {
+    font-family: 'scdream3', sans-serif; 
+    font-size: 1.2em;
+    line-height: 23px;
+}
+
+#s05 .s05-content figure {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#s05 .s05-content figure img {
+    width: 800px;
+}
+
+#s06 {
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+#s06 .business {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#s06 .business .s06-title::before {
+    content: url('../images/line.png');
+    position: absolute;
+    right: 200px;
+    top: 0px;
+}
+
+#s06 .business .s06-title {
+    position: absolute;
+    right: 0;
+}
+
+#s06 .business .s06-title h2 {
+    font-family: 'scdream2', sans-serif;
+    font-size: 2.3em;
+    letter-spacing: -2px;
+    color: #ffb10a;
+    margin-bottom: 10px;
+}
+
+#s06 .business .s06-title p {
+    font-family: 'scdream3', sans-serif; 
+    font-size: 1.2em;
+    line-height: 23px;
+}
+
+#s06 .s06-content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+#s06 .s06-content .recruit {
+    margin-right: 50px;
+}
+
+#s06 .s06-content figure img {
+    width: 350px;
+}
+
+#s06 .s06-content .recruit > p {
+    font-family: 'scdream5', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#s06 .s06-content .recruit-hover {
+    /* display: none; */
+    position: absolute;
+    top: 30%;
+    left: 80px;
+}
+
+#s06 .s06-content .recruit-hover > p {
+    font-family: 'scdream3', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 30px;
+    color: #fff;
+}
+
+#s06 .s06-content .recruit:hover .recruit-hover {
+    display: block;
+}
+
+#s06 .s06-content .open-store {
+    position: relative;
+}
+
+#s06 .s06-content .open-store > p {
+    font-family: 'scdream5', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#s06 .s06-content .open-store > .open-hover {
+    /* display: none; */
+    width: 350px;
+    height: 397px;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#s06 .s06-content .open-hover > p {
+    font-family: 'scdream3', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 50%;
+    line-height: 30px;
+    color: #fff;
+}
+
+#s06 .s06-content .open-store:hover .open-hover {
+    display: block;
+}
+
+
+
+
+/* 미디어쿼리 */
+/* PC (해상도 1024px)*/ 
+@media all and (min-width:1024px) {
+    
+} 
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/ 
+@media all and (min-width:768px) and (max-width:1023px) {
+    
+} 
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/ 
+@media all and (max-width:767px) {
+    
+}
