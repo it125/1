@@ -2,7 +2,7 @@
     width: 100%;
     position: relative;
     margin-bottom: 150px;
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 #s02 {
@@ -204,14 +204,13 @@
 }
 
 #s04 .s04-content .search-box figure img {
-    width: 800px;
-    opacity: 80%;
+    width: 750px;
 }
 
 #s04 .s04-content .search-bar {
     position: absolute;
-    top: 60%;
-    left: 22%;
+    top: 50%;
+    left: 20%;
 }
 
 #s04 .s04-content .search-bar input {
@@ -374,6 +373,7 @@
     position: absolute;
     top: 0;
     background: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
 }
 
 #s06 .s06-content .open-hover > p {
