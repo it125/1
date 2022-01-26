@@ -1,14 +1,24 @@
 #s01 {
     width: 100%;
     position: relative;
+<<<<<<< HEAD
     margin-bottom: 150px;
     padding-top: 70px;
+=======
+    margin-bottom: 200px;
+    padding-top: 50px;
+>>>>>>> e634bdd0eaf5c8ea9ae3d4e235be41a7e2a24e5d
 }
 
 #s02 {
     width: 100%;
+<<<<<<< HEAD
     height: 300px;
     margin-bottom: 150px;
+=======
+    height: 200px;
+    margin-bottom: 200px;
+>>>>>>> e634bdd0eaf5c8ea9ae3d4e235be41a7e2a24e5d
 }
 
 #s02 .products {
@@ -18,10 +28,17 @@
 }
 
 #s02 .products .s02-title::before {
+<<<<<<< HEAD
     content: url('../images/line.png');
     position: absolute;
     left: -23px;
     top: 0px;
+=======
+    content: url('../images/line_o.png');
+    position: absolute;
+    left: -23px;
+    top: -20px;
+>>>>>>> e634bdd0eaf5c8ea9ae3d4e235be41a7e2a24e5d
 }
 
 #s02 .products .s02-title {
@@ -83,7 +100,11 @@
 #s03 {
     width: 100%;
     height: 802px;
+<<<<<<< HEAD
     margin-bottom: 150px;
+=======
+    margin-bottom: 200px;
+>>>>>>> e634bdd0eaf5c8ea9ae3d4e235be41a7e2a24e5d
 }
 
 #s03 .event {
@@ -94,10 +115,17 @@
 }
 
 #s03 .event .s03-title::after {
+<<<<<<< HEAD
     content: url('../images/line.png');
     position: absolute;
     left: 180px;
     top: 0px;
+=======
+    content: url('../images/line_o.png');
+    position: absolute;
+    left: 180px;
+    top: -20px;
+>>>>>>> e634bdd0eaf5c8ea9ae3d4e235be41a7e2a24e5d
 }
 
 #s03 .event .s03-title h2 {
@@ -160,7 +188,11 @@
 
 #s04 {
     width: 100%;
+<<<<<<< HEAD
     margin-bottom: 150px;
+=======
+    margin-bottom: 200px;
+>>>>>>> e634bdd0eaf5c8ea9ae3d4e235be41a7e2a24e5d
 }
 
 #s04 .store {
@@ -171,10 +203,17 @@
 }
 
 #s04 .store .s04-title::before {
+<<<<<<< HEAD
     content: url('../images/line.png');
     position: absolute;
     right: 160px;
     top: 0px;
+=======
+    content: url('../images/line_o.png');
+    position: absolute;
+    right: 160px;
+    top: -20px;
+>>>>>>> e634bdd0eaf5c8ea9ae3d4e235be41a7e2a24e5d
 }
 
 #s04 .store .s04-title {
@@ -204,13 +243,23 @@
 }
 
 #s04 .s04-content .search-box figure img {
+<<<<<<< HEAD
     width: 750px;
+=======
+    width: 800px;
+    opacity: 80%;
+>>>>>>> e634bdd0eaf5c8ea9ae3d4e235be41a7e2a24e5d
 }
 
 #s04 .s04-content .search-bar {
     position: absolute;
+<<<<<<< HEAD
     top: 50%;
     left: 20%;
+=======
+    top: 60%;
+    left: 22%;
+>>>>>>> e634bdd0eaf5c8ea9ae3d4e235be41a7e2a24e5d
 }
 
 #s04 .s04-content .search-bar input {
@@ -234,7 +283,11 @@
 #s05 {
     width: 100%;
     height: 495px;
+<<<<<<< HEAD
     margin-bottom: 150px;
+=======
+    margin-bottom: 200px;
+>>>>>>> e634bdd0eaf5c8ea9ae3d4e235be41a7e2a24e5d
 }
 
 #s05 .delivery {
@@ -244,10 +297,17 @@
 }
 
 #s05 .delivery .s05-title::after {
+<<<<<<< HEAD
     content: url('../images/line.png');
     position: absolute;
     left: 180px;
     top: 0px;
+=======
+    content: url('../images/line_o.png');
+    position: absolute;
+    left: 180px;
+    top: -20px;
+>>>>>>> e634bdd0eaf5c8ea9ae3d4e235be41a7e2a24e5d
 }
 
 #s05 .delivery .s05-title {
@@ -279,7 +339,11 @@
 
 #s06 {
     width: 100%;
+<<<<<<< HEAD
     margin-bottom: 150px;
+=======
+    margin-bottom: 200px;
+>>>>>>> e634bdd0eaf5c8ea9ae3d4e235be41a7e2a24e5d
 }
 
 #s06 .business {
@@ -289,10 +353,17 @@
 }
 
 #s06 .business .s06-title::before {
+<<<<<<< HEAD
     content: url('../images/line.png');
     position: absolute;
     right: 200px;
     top: 0px;
+=======
+    content: url('../images/line_o.png');
+    position: absolute;
+    right: 200px;
+    top: -20px;
+>>>>>>> e634bdd0eaf5c8ea9ae3d4e235be41a7e2a24e5d
 }
 
 #s06 .business .s06-title {
@@ -369,18 +440,29 @@
 #s06 .s06-content .open-store > .open-hover {
     /* display: none; */
     width: 350px;
+<<<<<<< HEAD
     height: 397px;
     position: absolute;
     top: 0;
     background: rgba(0, 0, 0, 0.8);
     border-radius: 20px;
+=======
+    height: inherit;
+    position: absolute;
+    top: 30%;
+    background: rgba(0, 0, 0, 0.8);
+>>>>>>> e634bdd0eaf5c8ea9ae3d4e235be41a7e2a24e5d
 }
 
 #s06 .s06-content .open-hover > p {
     font-family: 'scdream3', sans-serif;
     font-size: 1.2em;
     text-align: center;
+<<<<<<< HEAD
     margin-top: 50%;
+=======
+    margin-top: 30px;
+>>>>>>> e634bdd0eaf5c8ea9ae3d4e235be41a7e2a24e5d
     line-height: 30px;
     color: #fff;
 }
