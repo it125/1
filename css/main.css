@@ -16,11 +16,10 @@
 #s01 .swiper-slide {
     text-align: center;
     width: 100%;
-    margin-bottom: 150px;
-    padding-top: 70px;
 }
 
 #s02 {
+    width: 100%;
     height: 340px;
     margin-bottom: 150px;
 }
@@ -32,12 +31,10 @@
 }
 
 #s02 .products .s02-title::before {
-
     content: url('../images/line.png');
     position: absolute;
     left: -30px;
     top: 0px;
-
     /* content: '';
     border-left: 3px solid #ffb10a;
     position: relative;
@@ -139,10 +136,10 @@
 }
 
 #s03 .event .s03-title::after {
-    content: url('../images/line_o.png');
+    content: url('../images/line.png');
     position: absolute;
     left: 180px;
-    top: -20px;
+    top: 0px;
 }
 
 #s03 .event .s03-title h2 {
@@ -216,10 +213,10 @@
 }
 
 #s04 .store .s04-title::before {
-    content: url('../images/line_o.png');
+    content: url('../images/line.png');
     position: absolute;
     right: 160px;
-    top: -20px;
+    top: 0px;
 }
 
 #s04 .store .s04-title {
@@ -250,7 +247,6 @@
 
 #s04 .s04-content .search-box figure img {
     width: 850px;
-
 }
 
 #s04 .s04-content .search-bar {
@@ -279,9 +275,7 @@
 
 #s05 {
     width: 100%;
-    height: 495px;
     margin-bottom: 150px;
-
 }
 
 #s05 .delivery {
@@ -292,10 +286,10 @@
 }
 
 #s05 .delivery .s05-title::after {
-    content: url('../images/line_o.png');
+    content: url('../images/line.png');
     position: absolute;
     left: 180px;
-    top: -20px;
+    top: 0px;
 }
 
 #s05 .delivery .s05-title {
