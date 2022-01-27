@@ -360,16 +360,20 @@ table {
 
 /* 미디어쿼리 */
 @media all and (min-width: 1024px) and (max-width: 1300px) {
+	#header {
+		width: 100%;
+	}
+
 	#header .h-wrap {
-        max-width: 1300px;
+        max-width: 1024px;
 	}
 	
 	#header .gnb {
 		display: none;
 	}
-
 	#footer .f-wrap {
-		max-width: 1300px;
+		max-width: 1024px;
+		margin: 0 auto;
 	}
 
 	#footer .f-info1 {
@@ -378,7 +382,7 @@ table {
 } 
 @media all and (min-width: 768px) and (max-width: 1023px) {
 	#header .h-wrap {
-        max-width: 1023px;
+        max-width: 768px;
 	}
 
 	#header .gnb {
@@ -386,7 +390,8 @@ table {
 	}
 
 	#footer .f-wrap {
-		max-width: 1023px;
+		max-width: 768px;
+		margin: 0 auto;
 	}
 
 	#footer .f-info1 {
@@ -395,7 +400,7 @@ table {
 } 
 @media all and (min-width: 480px) and (max-width: 767px) {
 	#header .h-wrap {
-        max-width: 767px;
+        max-width: 480px;
 	}
 
     #header .gnb {
@@ -403,7 +408,8 @@ table {
 	}
 
 	#footer .f-wrap {
-		max-width: 767px;
+		max-width: 480px;
+		margin: 0 auto;
 	}
 
 	#footer .f-info1 {
@@ -439,8 +445,12 @@ table {
 		display: none;
 	}
 
+	#footer {
+	}
+
 	#footer .f-wrap {
 		max-width: 479px;
+		margin: 0 auto;
 	}
 
 	#footer .f-info1 {

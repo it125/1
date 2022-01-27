@@ -6,7 +6,8 @@
 }
 
 #s01 .s01-wrap {
-    width: 100%;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 #s01 .swiper-s01 {
@@ -16,11 +17,6 @@
 #s01 .swiper-slide {
     text-align: center;
     width: 100%;
-}
-
-#s01 video {
-    width: 100%;
-    height: 100%;
 }
 
 #s02 {
@@ -457,7 +453,8 @@
     }
 
     #s01 .s01-wrap {
-        max-width: 1300px;
+        max-width: 1024px;
+        margin: 0 auto;
     }
 
     #s02 {
@@ -467,8 +464,8 @@
     }
 
     #s02 .products {
-        max-width: 1300px;
-        height: inherit;
+        max-width: 1024px;
+        margin: 0 auto;
     }
 
     #s02 .products .s02-title {
@@ -529,12 +526,13 @@
     }
 
     #s03 {
-        max-width: 1300px;
+        width: 100%;
         margin-bottom: 80px;
     }
 
     #s03 .event {
-        width: 100%;
+        max-width: 1024px;
+        margin: 0 auto;
     }
 
     #s03 .event .s03-title {
@@ -578,7 +576,8 @@
     }
 
     #s04 .store {
-        max-width: 1300px;
+        max-width: 1024px;
+        margin: 0 auto;
     }
 
     #s04 .store .s04-title {
@@ -621,7 +620,8 @@
     }
 
     #s05 .delivery {
-        max-width: 1300px;
+        max-width: 1024px;
+        margin: 0 auto;
         height: 100%;
     }
 
@@ -661,7 +661,8 @@
     }
 
     #s06 .business {
-        max-width: 1300px;
+        max-width: 1024px;
+        margin: 0 auto;
     }
 
     #s06 .business .s06-title {
@@ -749,7 +750,8 @@
     }
 
     #s01 .s01-wrap {
-        width: 100%;
+        max-width: 768px;
+        margin: 0 auto;
     }
 
     #s02 {
@@ -759,7 +761,7 @@
     }
 
     #s02 .products {
-        max-width: 1023px;
+        max-width: 768px;
         margin: 0 auto;
         height: auto;
     }
@@ -831,7 +833,8 @@
     }
 
     #s03 .event {
-        max-width: 1023px;
+        max-width: 768px;
+        margin: 0 auto;
     }
 
     #s03 .event .s03-title {
@@ -875,7 +878,8 @@
     }
 
     #s04 .store {
-        max-width: 1023px;
+        max-width: 768px;
+        margin: 0 auto;
     }
 
     #s04 .store .s04-title {
@@ -918,7 +922,8 @@
     }
 
     #s05 .delivery {
-        max-width: 1023px;
+        max-width: 768px;
+        margin: 0 auto;
         height: 100%;
     }
 
@@ -958,7 +963,8 @@
     }
 
     #s06 .business {
-        max-width: 1023px;
+        max-width: 768px;
+        margin: 0 auto;
     }
 
     #s06 .business .s06-title {
@@ -1046,7 +1052,8 @@
     }
 
     #s01 .s01-wrap {
-        max-width: 767px;
+        max-width: 480px;
+        margin: 0 auto;
     }
 
     #s02 {
@@ -1056,7 +1063,8 @@
     }
 
     #s02 .products {
-        max-width: 767px;
+        max-width: 480px;
+        margin: 0 auto;
     }
 
     #s02 .products .s02-title::before {
@@ -1075,6 +1083,10 @@
         position: unset;
         text-align: center;
         margin-bottom: 30px;
+    }
+
+    #s02 .products .s02-title h2 {
+        font-size: 2em;
     }
 
     #s02 .products .s02-content figure {
@@ -1113,18 +1125,20 @@
     }
 
     #s02 .products .swiper-container {
-        width: 550px;
+        width: 290px;
         height: 300px;
-        padding: 0 30px;
+        padding: 0 90px;
     }
 
     #s03 {
         width: 100%;
+        height: 550px;
         margin-bottom: 80px;
     }
 
     #s03 .event {
-        max-width: 767px;
+        max-width: 480px;
+        margin: 0 auto;
     }
 
     #s03 .event .s03-title::after {
@@ -1145,6 +1159,10 @@
         margin-bottom: 30px;
     }
 
+    #s03 .event .s03-title h2 {
+        font-size: 2em;
+    }
+
     #s03 .event .s03-content {
         width: 720px;
         margin: 0 auto;
@@ -1155,7 +1173,7 @@
     }
     
     #s03 .event .s03-content img {
-        width: 350px;
+        width: 230px;
     }
 
     #s04 {
@@ -1164,7 +1182,8 @@
     }
 
     #s04 .store {
-        max-width: 767px;
+        max-width: 480px;
+        margin: 0 auto;
     }
 
     #s04 .store .s04-title::before {
@@ -1185,16 +1204,39 @@
         margin-bottom: 30px;
     }
 
+    #s04 .store .s04-title h2 {
+        font-size: 2em;
+    }
+
     #s04 .s04-content .search-box {
         text-align: center;
     }
 
     #s04 .s04-content .search-box figure img {
-        width: 600px;
+        width: 500px;
     }
     
     #s04 .s04-content .search-bar {
-        left: 33%;
+        position: absolute;
+        left: 18%;
+    }
+
+    #s04 .s04-content .search-bar input {
+        font-family: 'scdream4', sans-serif;
+        font-size: 1em;
+        width: 300px;
+        height: 50px;
+        padding: 15px;
+        border: none;
+        background: #fff;
+        color: #000;
+    }
+    
+    #s04 .s04-content .search-bar button {
+        float: right;
+        width: 40px;
+        height: 40px;
+        border: none;
     }
 
     #s05 {
@@ -1203,7 +1245,8 @@
     }
 
     #s05 .delivery {
-        max-width: 767px;
+        max-width: 480px;
+        margin: 0 auto;
         height: 100%;
     }
 
@@ -1225,13 +1268,17 @@
         margin-bottom: 30px;
     }
 
+    #s05 .delivery .s05-title h2 {
+        font-size: 2em;
+    }
+
     #s05 .s05-content figure {
         position: unset;
         text-align: center;
     }
     
     #s05 .s05-content figure img {
-        width: 600px;
+        width: 500px;
     }
     
     #s06 {
@@ -1239,11 +1286,8 @@
     }
 
     #s06 .business {
-        max-width: 767px;
-    }
-
-    #s06 .business .s06-title {
-        position: unset;
+        max-width: 480px;
+        margin: 0 auto;
     }
 
     #s06 .business .s06-title::before {
@@ -1264,6 +1308,10 @@
         margin-bottom: 30px;
     }
 
+    #s06 .business .s06-title h2 {
+        font-size: 2em;
+    }
+
     #s06 .s06-content {
         position: relative;
         display: flex;
@@ -1276,7 +1324,7 @@
     }
 
     #s06 .s06-content figure img {
-        width: 300px;
+        width: 200px;
     }
     
     #s06 .s06-content .recruit > p {
@@ -1295,28 +1343,40 @@
 
     #s06 .s06-content .recruit-hover {
         display: none;
-        width: 300px;
-        height: 340px;
+        width: 200px;
+        height: 226px;
         position: absolute;
         top: 0;
-        background: rgba(0, 0, 0, 0.8);
-        border-radius: 20px;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 12px;
         animation: fade .5s;
     }
 
     #s06 .s06-content .open-store > .open-hover {
         display: none;
-        width: 300px;
-        height: 340px;
+        width: 200px;
+        height: 226px;
         position: absolute;
         top: 0;
-        background: rgba(0, 0, 0, 0.8);
-        border-radius: 20px;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 12px;
         animation: fade .5s;
     }
     
     #s06 .s06-content .recruit:hover .recruit-hover {
         display: block;
+    }
+
+    #s06 .s06-content .recruit:hover .recruit-hover p {
+        font-size: 1em;
+    }
+
+    #s06 .s06-content .open-store:hover .open-hover {
+        display: block;
+    }
+
+    #s06 .s06-content .open-hover p {
+        font-size: 1em;
     }
 }
 @media all and (max-width: 479px) {
@@ -1326,7 +1386,8 @@
     }
 
     #s01 .s01-wrap {
-        max-width: 479px;
+        max-width: 300px;
+        margin: 0 auto;
     }
 
     #s02 {
@@ -1336,7 +1397,8 @@
     }
 
     #s02 .products {
-        max-width: 479px;
+        max-width: 300px;
+        margin: 0 auto;
     }
 
     #s02 .products .s02-title::before {
@@ -1357,12 +1419,16 @@
         margin-bottom: 30px;
     }
 
+    #s02 .products .s02-title h2 {
+        font-size: 1.5em;
+    }
+
     #s02 .products .s02-content figure {
         height: 120px;
     }
     
     #s02 .products .s02-content figure img {
-        width: 100px;
+        width: 95px;
     }
 
     #s02 .products .s02-content p {
@@ -1393,18 +1459,20 @@
     }
 
     #s02 .products .swiper-container {
-        width: 550px;
+        width: 145px;
         height: 300px;
         padding: 0 30px;
     }
 
     #s03 {
         width: 100%;
+        height: 380px;
         margin-bottom: 80px;
     }
 
     #s03 .event {
-        max-width: 479px;
+        max-width: 300px;
+        margin: 0 auto;
     }
 
     #s03 .event .s03-title::after {
@@ -1425,17 +1493,21 @@
         margin-bottom: 30px;
     }
 
+    #s03 .event .s03-title h2 {
+        font-size: 1.5em;
+    }
+
     #s03 .event .s03-content {
-        width: 720px;
+        width: 320px;
         margin: 0 auto;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        position: unset;
+        position: relative;
     }
     
     #s03 .event .s03-content img {
-        width: 350px;
+        width: 140px;
     }
 
     #s04 {
@@ -1444,7 +1516,8 @@
     }
 
     #s04 .store {
-        max-width: 479px;
+        max-width: 300px;
+        margin: 0 auto;
     }
 
     #s04 .store .s04-title::before {
@@ -1465,16 +1538,44 @@
         margin-bottom: 30px;
     }
 
+    #s04 .store .s04-title h2 {
+        font-size: 1.5em;
+    }
+
     #s04 .s04-content .search-box {
         text-align: center;
     }
 
     #s04 .s04-content .search-box figure img {
-        width: 600px;
+        width: 300px;
     }
     
     #s04 .s04-content .search-bar {
-        left: 33%;
+        position: absolute;
+        top: 50%;
+        left: 23%;
+    }
+    
+    #s04 .s04-content .search-bar input {
+        font-family: 'scdream4', sans-serif;
+        font-size: 0.5em;
+        width: 150px;
+        height: 20px;
+        padding: 15px;
+        border: none;
+        background: #fff;
+        color: #000;
+    }
+    
+    #s04 .s04-content .search-bar button {
+        float: right;
+        width: 30px;
+        height: 30px;
+        border: none;
+    }
+
+    #s04 .s04-content .search-bar button img {
+        width: 30px;
     }
 
     #s05 {
@@ -1483,7 +1584,8 @@
     }
 
     #s05 .delivery {
-        max-width: 479px;
+        max-width: 300px;
+        margin: 0 auto;
         height: 100%;
     }
 
@@ -1505,21 +1607,26 @@
         margin-bottom: 30px;
     }
 
+    #s05 .delivery .s05-title h2 {
+        font-size: 1.5em;
+    }
+
     #s05 .s05-content figure {
         position: unset;
         text-align: center;
     }
     
     #s05 .s05-content figure img {
-        width: 600px;
+        width: 300px;
     }
-    
+
     #s06 {
         margin-bottom: 80px;
     }
 
     #s06 .business {
-        max-width: 479px;
+        max-width: 300px;
+        margin: 0 auto;
     }
 
     #s06 .business .s06-title {
@@ -1544,6 +1651,10 @@
         margin-bottom: 30px;
     }
 
+    #s06 .business .s06-title h2 {
+        font-size: 1.5em;
+    }
+
     #s06 .s06-content {
         position: relative;
         display: flex;
@@ -1556,46 +1667,29 @@
     }
 
     #s06 .s06-content figure img {
-        width: 300px;
+        width: 150px;
     }
     
+
     #s06 .s06-content .recruit > p {
         font-family: 'scdream5', sans-serif;
-        font-size: 1.3em;
+        font-size: 1em;
         text-align: center;
         margin-top: 20px;
     }
 
     #s06 .s06-content .open-store > p {
         font-family: 'scdream5', sans-serif;
-        font-size: 1.3em;
+        font-size: 1em;
         text-align: center;
         margin-top: 20px;
     }
-
-    #s06 .s06-content .recruit-hover {
-        display: none;
-        width: 300px;
-        height: 340px;
-        position: absolute;
-        top: 0;
-        background: rgba(0, 0, 0, 0.8);
-        border-radius: 20px;
-        animation: fade .5s;
-    }
-
-    #s06 .s06-content .open-store > .open-hover {
-        display: none;
-        width: 300px;
-        height: 340px;
-        position: absolute;
-        top: 0;
-        background: rgba(0, 0, 0, 0.8);
-        border-radius: 20px;
-        animation: fade .5s;
-    }
     
     #s06 .s06-content .recruit:hover .recruit-hover {
-        display: block;
+        display: none;
+    }
+
+    #s06 .s06-content .open-store:hover .open-hover {
+        display: none;
     }
 }

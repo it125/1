@@ -136,17 +136,17 @@
             <section id="s01">
                 <div class="s01-wrap">
                     <div class="swiper-s01">
-                        <!-- <div class="swiper-wrapper">
+                        <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <video src="./video/video1.mp4" type="video/mp4" muted autoplay loop></video>
+                                <video src="./video/video1.mp4" type="video/mp4" muted autoplay loop width="100%" height="100%"></video>
                             </div>
                             <div class="swiper-slide">
-                                <video src="./video/video2.mp4" type="video/mp4" muted autoplay loop></video>
+                                <video src="./video/video2.mp4" type="video/mp4" muted autoplay loop width="100%" height="100%"></video>
                             </div>
                             <div class="swiper-slide">
-                                <video src="./video/video3.mp4" type="video/mp4" muted autoplay loop></video>
+                                <video src="./video/video3.mp4" type="video/mp4" muted autoplay loop width="100%" height="100%"></video>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </section>
@@ -610,9 +610,6 @@
                             뚜레쥬르 창업에 대한<br />
                             사항을 확인해보세요
                         </p>
-                        <!-- <figure>
-                            <img src="./images/line_o.png" alt="구분선">
-                        </figure> -->
                     </div>
                     <div class="s06-content">
                         <div class="recruit">
@@ -712,19 +709,23 @@
             autoplay: {
             delay: 30000,
             },
+            spaceBetween: 250,
         });
 
         var swiper2 = new Swiper('.swiper-s02', {
             slidesPerView: 3,
+            spaceBetween: 30,
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
-            // breakpoints: {
-            //     479: {
-            //         slidesPerView: 2,
-            //     }
-            // }
+            breakpoints: {
+                767: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },  
+            }
+            
         });
     </script>
 
