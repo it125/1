@@ -179,10 +179,6 @@ table {
 	float: left;
 }
 
-#header .nav-left > .gnb {
-	
-}
-
 #header .nav-left > .gnb > li {
 	width: 180px;
 	display: inline-block;
@@ -201,10 +197,6 @@ table {
 	float: left;
 }
 
-#header .nav-right > .gnb {
-	
-}
-
 #header .nav-right > .gnb > li {
 	width: 180px;
 	display: inline-block;
@@ -214,6 +206,7 @@ table {
 #header .gnb > li > a {
 	font-family: 'scdream5', sans-serif;
 	color: #fff;
+	position: relative;
 }
 
 #header .hamburger {
@@ -225,23 +218,23 @@ table {
 #header nav .gnb > li > a::after {
     content: '';
     width: 0;
-    left: 50%; /* 0 : 직선 */
+    left: 50%;
     height: 1px;
     display: block;
     position: absolute;
-    margin-top: 26px;
+    margin-top: 25px;
     border-bottom: 2px solid #fff;
     transition: all 0.4s ease;
 }
 
-#header nav .gnb > li:hover > a::after{
+#header nav .gnb > li:hover > a::after {
     content: '';
     width: 100%;
     left: 0px;
     height: 1px;
     display: block;
     position: absolute;
-    margin-top: 26px;
+    margin-top: 25px;
     border-bottom: 2px solid #fff;
     transition: all 0.4s ease;
 }
@@ -257,7 +250,7 @@ table {
 
 #header .lnb {
 	width: 180px;
-	margin-top: 29px;
+	margin-top: 27px;
 	background: rgba(0, 0, 0, 0.8);
 	text-align: center;
 	display: none;
@@ -274,7 +267,7 @@ table {
 }
 
 #header .lnb > li:hover {
-	background:rgba(255, 255, 255, 0.8);
+	background:#fff;
 	transition: 0.4s ease;
 	display: block; 
 }

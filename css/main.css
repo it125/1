@@ -1,6 +1,6 @@
 #s01 {
     width: 100%;
-    position: relative;
+    height: 100%;
     margin-bottom: 150px;
     padding-top: 70px;
 }
@@ -16,6 +16,11 @@
 #s01 .swiper-slide {
     text-align: center;
     width: 100%;
+}
+
+#s01 video {
+    width: 100%;
+    height: 100%;
 }
 
 #s02 {
@@ -35,11 +40,6 @@
     position: absolute;
     left: -30px;
     top: 0px;
-    /* content: '';
-    border-left: 3px solid #ffb10a;
-    position: relative;
-    left: -20px;
-    width: 100%;     */
     
 }
 
@@ -68,9 +68,6 @@
     font-family: 'scdream3', sans-serif;
 }
 
-#s02 .products .s02-content {
-}
-
 #s02 .products .s02-content figure {
     height: 180px;
 }
@@ -86,24 +83,39 @@
 }
 
 #s02 .products .s02-content .s02-hover {
-    visibility: hidden;
+    display: none;
     background:rgba(255, 183, 27, 0.95);
     border-radius: 100%;
-    width: 270px;
-    height: 270px;
+    width: 265px;
+    height: 265px;
     position: absolute;
-    top: 0px;
+    top: 0;
     left: 0;
+    cursor: pointer;
 }
 
 #s02 .products .s02-content .s02-hover p {
+    font-family: 'scdream4', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 30%;
+    line-height: 25px;
+}
+
+#s02 .products .s02-content .s02-hover span {
+    font-family: 'scdream4', sans-serif;
+    font-size: 1em;
+    text-align: center;
     color: #fff;
     position: relative;
     top: 35%;
 }
 
 #s02 .products .s02-content:hover .s02-hover {
-    visibility: visible;
+    display: block;
+    animation: fade 0.5s ease-in;
 }
 
 #s02 .swiper-wrap {
@@ -238,13 +250,6 @@
     line-height: 23px;
 }
 
-#s04 .s04-content {
-}
-
-#s04 .s04-content .search-box {
-    
-}
-
 #s04 .s04-content .search-box figure img {
     width: 850px;
 }
@@ -252,7 +257,7 @@
 #s04 .s04-content .search-bar {
     position: absolute;
     top: 50%;
-    left: 20%;
+    left: 23%;
 }
 
 #s04 .s04-content .search-bar input {
@@ -290,9 +295,6 @@
     position: absolute;
     left: 180px;
     top: 0px;
-}
-
-#s05 .delivery .s05-title {
 }
 
 #s05 .delivery .s05-title h2 {
@@ -388,13 +390,14 @@
 
 #s06 .s06-content .recruit-hover {
     display: none;
-    width: 350px;
-    height: 397px;
+    width: 390px;
+    height: 443px;
     position: absolute;
     top: 0;
     background: rgba(0, 0, 0, 0.8);
-    border-radius: 20px;
+    border-radius: 25px;
     animation: fade .5s;
+    cursor: pointer;
 }
 
 #s06 .s06-content .recruit-hover > p {
@@ -423,13 +426,14 @@
 
 #s06 .s06-content .open-store > .open-hover {
     display: none;
-    width: 350px;
-    height: 397px;
+    width: 390px;
+    height: 443px;
     position: absolute;
     top: 0;
     background: rgba(0, 0, 0, 0.8);
-    border-radius: 20px;
+    border-radius: 25px;
     animation: fade .5s;
+    cursor: pointer;
 }
 
 #s06 .s06-content .open-hover > p {
