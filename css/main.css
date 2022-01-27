@@ -118,17 +118,17 @@
     animation: fade 0.5s ease-in;
 }
 
-#s02 .swiper-wrap {
+#s02 .products .swiper-wrap {
     margin-right: 500px;
     position: relative;
 }
 
-#s02 .swiper-slide {
+#s02 .products .swiper-slide {
     text-align: center;
     width: 500px;
 }
 
-#s02 .swiper-container {
+#s02 .products .swiper-container {
     width: 800px;
     height: 300px;
     padding: 0 30px;
@@ -500,6 +500,29 @@
     #s02 .products .s02-content figure img {
         width: 130px;
     }
+
+    #s02 .products .s02-content .s02-hover {
+        display: none;
+        background:rgba(255, 183, 27, 0.95);
+        border-radius: 100%;
+        width: 220px;
+        height: 220px;
+        position: absolute;
+        top: 0;
+        left: 15px;
+        cursor: pointer;
+    }
+
+    #s02 .products .s02-content .s02-hover p {
+        font-size: 0.8em;
+        top: 30%;
+        line-height: 25px;
+    }
+    
+    #s02 .products .s02-content .s02-hover span {
+        font-size: 0.8em;
+        top: 35%;
+    }
     
     #s02 .products .swiper-wrap {
         margin-right: 0;
@@ -719,7 +742,7 @@
     }
 } 
 
-@media all and (min-width:768px) and (max-width:1023px) {
+@media all and (min-width: 768px) and (max-width: 1023px) {
     #s01 {
         width: 100%;
         margin-bottom: 80px;
@@ -737,7 +760,8 @@
 
     #s02 .products {
         max-width: 1023px;
-        height: inherit;
+        margin: 0 auto;
+        height: auto;
     }
 
     #s02 .products .s02-title {
@@ -769,9 +793,36 @@
     #s02 .products .s02-content figure img {
         width: 130px;
     }
+
+    #s02 .products .s02-content .s02-hover {
+        display: none;
+        background:rgba(255, 183, 27, 0.95);
+        border-radius: 100%;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 0;
+        left: 35px;
+        cursor: pointer;
+    }
+
+    #s02 .products .s02-content .s02-hover span {
+        font-size: 1.2em;
+        top: 45%;
+    }
+
+    #s02 .products .s02-content .s02-hover p {
+        display: none;
+    }
     
     #s02 .products .swiper-wrap {
         margin-right: 0;
+    }
+
+    #s02 .products .swiper-container {
+        width: 800px;
+        height: 300px;
+        padding: 0 30px;
     }
 
     #s03 {
@@ -1006,11 +1057,6 @@
 
     #s02 .products {
         max-width: 767px;
-        height: inherit;
-    }
-
-    #s02 .products .s02-title {
-        position: unset;
     }
 
     #s02 .products .s02-title::before {
@@ -1032,15 +1078,44 @@
     }
 
     #s02 .products .s02-content figure {
-        height: 140px;
+        height: 120px;
     }
     
     #s02 .products .s02-content figure img {
-        width: 130px;
+        width: 100px;
+    }
+
+    #s02 .products .s02-content p {
+        font-family: 'scdream4', sans-serif;
+        font-size: 0.7em;
+        text-align: center;
     }
     
+    #s02 .products .s02-content .s02-hover p {
+        display: none;
+    }
+
+    #s02 .products .s02-content:hover .s02-hover {
+        display: none;
+    }
+    
+    #s02 .products .s02-content .s02-hover span {
+        font-family: 'scdream4', sans-serif;
+        font-size: 1em;
+        text-align: center;
+        color: #fff;
+        position: relative;
+        top: 45%;
+    }
+
     #s02 .products .swiper-wrap {
         margin-right: 0;
+    }
+
+    #s02 .products .swiper-container {
+        width: 550px;
+        height: 300px;
+        padding: 0 30px;
     }
 
     #s03 {
@@ -1050,10 +1125,6 @@
 
     #s03 .event {
         max-width: 767px;
-    }
-
-    #s03 .event .s03-title {
-        position: unset;
     }
 
     #s03 .event .s03-title::after {
@@ -1096,10 +1167,6 @@
         max-width: 767px;
     }
 
-    #s04 .store .s04-title {
-        position: unset;
-    }
-
     #s04 .store .s04-title::before {
         display: none;
     }
@@ -1138,10 +1205,6 @@
     #s05 .delivery {
         max-width: 767px;
         height: 100%;
-    }
-
-    #s05 .delivery .s05-title {
-        position: unset;
     }
 
     #s05 .delivery .s05-title::after {
@@ -1256,14 +1319,14 @@
         display: block;
     }
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 479px) {
     #s01 {
         width: 100%;
         margin-bottom: 80px;
     }
 
     #s01 .s01-wrap {
-        max-width: 768px;
+        max-width: 479px;
     }
 
     #s02 {
@@ -1273,12 +1336,7 @@
     }
 
     #s02 .products {
-        max-width: 768px;
-        height: inherit;
-    }
-
-    #s02 .products .s02-title {
-        position: unset;
+        max-width: 479px;
     }
 
     #s02 .products .s02-title::before {
@@ -1300,15 +1358,44 @@
     }
 
     #s02 .products .s02-content figure {
-        height: 140px;
+        height: 120px;
     }
     
     #s02 .products .s02-content figure img {
-        width: 130px;
+        width: 100px;
+    }
+
+    #s02 .products .s02-content p {
+        font-family: 'scdream4', sans-serif;
+        font-size: 0.7em;
+        text-align: center;
     }
     
+    #s02 .products .s02-content .s02-hover p {
+        display: none;
+    }
+
+    #s02 .products .s02-content:hover .s02-hover {
+        display: none;
+    }
+    
+    #s02 .products .s02-content .s02-hover span {
+        font-family: 'scdream4', sans-serif;
+        font-size: 1em;
+        text-align: center;
+        color: #fff;
+        position: relative;
+        top: 45%;
+    }
+
     #s02 .products .swiper-wrap {
         margin-right: 0;
+    }
+
+    #s02 .products .swiper-container {
+        width: 550px;
+        height: 300px;
+        padding: 0 30px;
     }
 
     #s03 {
@@ -1317,11 +1404,7 @@
     }
 
     #s03 .event {
-        max-width: 768px;
-    }
-
-    #s03 .event .s03-title {
-        position: unset;
+        max-width: 479px;
     }
 
     #s03 .event .s03-title::after {
@@ -1361,11 +1444,7 @@
     }
 
     #s04 .store {
-        max-width: 768px;
-    }
-
-    #s04 .store .s04-title {
-        position: unset;
+        max-width: 479px;
     }
 
     #s04 .store .s04-title::before {
@@ -1404,12 +1483,8 @@
     }
 
     #s05 .delivery {
-        max-width: 768px;
+        max-width: 479px;
         height: 100%;
-    }
-
-    #s05 .delivery .s05-title {
-        position: unset;
     }
 
     #s05 .delivery .s05-title::after {
@@ -1444,7 +1519,7 @@
     }
 
     #s06 .business {
-        max-width: 768px;
+        max-width: 479px;
     }
 
     #s06 .business .s06-title {
