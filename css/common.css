@@ -144,17 +144,23 @@ table {
 ::selection {
 	background: #ffb10a;
 }
+
+.wrap {
+	width: 100%;
+}
+
 /* header */
 #header {
 	width: 100%;
 	height: 70px;
-	background: #ffb10a;
-	position: fixed;
 	z-index: 10;
+	position: fixed;
+	background: #ffb10a;
 }
 
 #header .h-wrap {
-	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
 	margin-top: 20px;
 }
 
@@ -164,51 +170,22 @@ table {
 
 #header nav {
 	position: relative;
-	width: 100%;
-	display: block;
-}
-
-#header .nav-left 
-
-/* #header {
-	width: 100%;
-	height: 70px;
-	z-index: 10;
-	position: fixed;
-	background: #ffb10a;
-}
-
-#header .h-wrap {
-	position: relative;
-	top: 25px;
-}
-
-#header h1 {
-	text-align: center;
-	position: relative;
-	bottom: 5px;
-}
-
-#header .nav {
-	position: relative;
+	bottom: 25px;
 }
 
 #header .nav-left {
 	width: 50%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	text-align: left;
+	text-align: center;
+	float: right;
 }
 
 #header .nav-left > .gnb {
-	margin-left: 90px;
+	
 }
 
 #header .nav-left > .gnb > li {
 	display: inline-block;
 	vertical-align: top;
-	margin-right: 60px;
 }
 
 #header .gnb > li > a {
@@ -219,60 +196,101 @@ table {
 
 #header .search {
 	position: absolute;
-	top: -3px;
-	left: 20px;
+	top: 0;
+	left: 0px;
 }
 
 #header .nav-right {
 	width: 50%;
-	position: absolute;
-	top: 0;
-	right: 0;
-	text-align: right;
+	text-align: center;
 }
 
 #header .nav-right > .gnb {
-	margin-right: 30px;
 }
 
 #header .nav-right > .gnb > li {
 	display: inline-block;
 	vertical-align: top;
-	margin-right: 60px;
 }
 
 #header .hamburger {
 	position: absolute;
-	top: -5px;
-	right: 20px;
+	top: 0;
+	right: 0px;
 }
 
+#header nav .gnb > li > a::after {
+    content: '';
+    width: 0;
+    left: 50%; /* 0 : 직선 */
+    height: 1px;
+    display: block;
+    position: absolute;
+    margin-top: 26px;
+    border-bottom: 2px solid #fff;
+    transition: all 0.4s ease;
+}
+
+/* #header nav .gnb > li:hover > a::after{
+    content: '';
+    width: 100%;
+    left: 0px;
+    height: 1px;
+    display: block;
+    position: absolute;
+    margin-top: 26px;
+    border-bottom: 2px solid #fff;
+    transition: all 0.4s ease;
+}
+
+#header nav .gnb > li:hover > a {
+	color: #000;
+	transition: 0.4s ease;
+}
+
+#header .gnb li:hover .lnb {
+	visibility: visible;
+}  */
+
 #header .lnb {
-	width: 200px;
+	/* width: 200px; */
 	margin-top: 29px;
-	line-height: 40px;
 	background: rgba(0, 0, 0, 0.8);
-	position: absolute;
 	text-align: center;
-	/* visibility: hidden; 
+	visibility: hidden;
+}
+
+#header .lnb > li {
+	padding: 20px;
 }
 
 #header .lnb > li > a {
 	font-family: 'scdream4', sans-serif;
-	padding: 20px 40px;
 	color: #fff;
-	font-size: 0.7em;
-} */
+	font-size: 0.85em;
+}
 
+#header .lnb > li:hover {
+	background:rgba(255, 255, 255, 0.8);
+	transition: 0.4s ease;
+	visibility: visible; 
+}
+
+#header .lnb > li:hover > a {
+	color: #000;
+}
+
+/* footer */
 #footer {
 	width: 100%;
 	background: #ffb10a;
-	
 }
 
 #footer .f-wrap {
+	width: 100%;
 	text-align: center;
-	padding: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 #footer .sns {
@@ -344,3 +362,115 @@ table {
 	color: #fff;
 }
 
+/* 미디어쿼리 */
+@media all and (min-width: 1024px) and (max-width: 1300px) {
+	#header .h-wrap {
+        max-width: 1300px;
+	}
+	
+	#header .gnb {
+		display: none;
+	}
+
+	#footer .f-wrap {
+		max-width: 1300px;
+	}
+
+	#footer .f-info1 {
+		display: none;
+	}
+} 
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/ 
+@media all and (min-width: 768px) and (max-width: 1023px) {
+	#header .h-wrap {
+        max-width: 1023px;
+	}
+
+	#header .gnb {
+		display: none;
+	}
+
+	#footer .f-wrap {
+		max-width: 1023px;
+	}
+
+	#footer .f-info1 {
+		display: none;
+	}
+} 
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/ 
+@media all and (min-width: 480px) and (max-width: 767px) {
+	#header .h-wrap {
+        max-width: 767px;
+	}
+
+    #header .gnb {
+		display: none;
+	}
+
+	#footer .f-wrap {
+		max-width: 767px;
+	}
+
+	#footer .f-info1 {
+		display: none;
+	}
+
+	#footer .sns span {
+		display: none;
+	}
+
+	#footer figure {
+		margin-right: 20px;
+	}
+
+	#footer figure:last-child {
+		margin-right: 0;
+	}
+
+	#footer .f-info2 {
+		display: none;
+	}
+
+	#footer .copyright {
+		font-size: 0.9em;
+	}
+}
+@media all and (max-width: 479px) {
+	#header .h-wrap {
+        max-width: 479px;
+	}
+
+    #header .gnb {
+		display: none;
+	}
+
+	#footer .f-wrap {
+		max-width: 479px;
+	}
+
+	#footer .f-info1 {
+		display: none;
+	}
+
+	#footer .sns span {
+		display: none;
+	}
+
+	#footer figure {
+		margin-right: 20px;
+	}
+
+	#footer figure:last-child {
+		margin-right: 0;
+	}
+
+	#footer .f-info2 {
+		display: none;
+	}
+
+	#footer .copyright {
+		font-size: 0.9em;
+	}
+
+}

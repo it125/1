@@ -134,16 +134,18 @@
         </header>
         <main>
             <section id="s01">
-                <div class="swiper-s01">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <video src="./video/video1.mp4" type="video/mp4" muted autoplay loop width="85%" height="85%"></video>
-                        </div>
-                        <div class="swiper-slide">
-                            <video src="./video/video2.mp4" type="video/mp4" muted autoplay loop width="85%" height="85%"></video>
-                        </div>
-                        <div class="swiper-slide">
-                            <video src="./video/video3.mp4" type="video/mp4" muted autoplay loop width="85%" height="85%"></video>
+                <div class="s01-wrap">
+                    <div class="swiper-s01">
+                        <div class="swiper-wrapper">
+                            <!-- <div class="swiper-slide">
+                                <video src="./video/video1.mp4" type="video/mp4" muted autoplay loop width="85%" height="85%"></video>
+                            </div>
+                            <div class="swiper-slide">
+                                <video src="./video/video2.mp4" type="video/mp4" muted autoplay loop width="85%" height="85%"></video>
+                            </div>
+                            <div class="swiper-slide">
+                                <video src="./video/video3.mp4" type="video/mp4" muted autoplay loop width="85%" height="85%"></video>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -159,9 +161,6 @@
                         </p>
                         <span>more ></span>
                     </div>
-                    <!-- <figure>
-                        <img src="./images/line_o.png" alt="구분선">
-                    </figure> -->
                     <div class="swiper-wrap">
                         <div class="swiper-container swiper-s02">
                             <div class="swiper-wrapper">
@@ -514,9 +513,6 @@
                         </p>
                         <span>more ></span>
                     </div>
-                    <!-- <figure>
-                        <img src="./images/line_o.png" alt="구분선">
-                    </figure> -->
                     <div class="s03-content">
                         <div class="event1">
                             <figure>
@@ -570,9 +566,6 @@
                             검색해보세요
                         </p>
                     </div>
-                    <!-- <figure>
-                        <img src="./images/line_o.png" alt="구분선">
-                    </figure> -->
                     <div class="s04-content">
                         <div class="search-box">
                             <figure>
@@ -597,9 +590,6 @@
                             빠르게 만나보세요
                         </p>
                     </div>
-                    <!-- <figure>
-                        <img src="./images/line_o.png" alt="구분선">
-                    </figure> -->
                     <div class="s05-content">
                         <figure>
                             <img src="./images/delivery.png" alt="예약&픽업 서비스">
@@ -670,6 +660,12 @@
                         </figure>
                         <span>TWITTER</span>
                     </div>
+                    <div class="kakao">
+                        <figure>
+                            <img src="./images/kakao.png" alt="뚜레쥬르 공식 카카오톡 채널" width="20px">
+                        </figure>
+                        <span>KAKAOTALK</span>
+                    </div>
                 </div>
                 <div class="f-info1">
                     <ul>
@@ -704,6 +700,7 @@
         </footer>
     </div>
     <script src="./js/jquery-3.6.0.min.js"></script>
+    
     <script src="./js/swiper.js"></script>
     <script>
         var swiper1 = new Swiper('.swiper-s01', {
@@ -722,6 +719,7 @@
             },
         });
     </script>
+
 </body>
 
 </html>
