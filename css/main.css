@@ -6,11 +6,6 @@
     padding-top: 70px;
 }
 
-#s01 .s01-wrap {
-    width: 100%;
-    margin: 0 auto;
-}
-
 #s01 .swiper-s01 {
     width: 100%;
 }
@@ -18,6 +13,11 @@
 #s01 .swiper-slide {
     text-align: center;
     width: 100%;
+}
+
+#s01 .swiper-slide video {
+    width: 100%;
+    height: auto;
 }
 
 #s02 {
@@ -116,19 +116,18 @@
 }
 
 #s02 .products .swiper-wrap {
-    margin-right: 500px;
+    width: 860px;
     position: relative;
-}
-
-#s02 .products .swiper-slide {
-    text-align: center;
-    width: 500px;
 }
 
 #s02 .products .swiper-container {
     width: 800px;
     height: 300px;
-    padding: 0 30px;
+}
+
+#s02 .products .swiper-slide {
+    text-align: center;
+    width: 500px;
 }
 
 #s03 {
@@ -453,11 +452,11 @@
         margin-bottom: 80px;
     }
 
-    #s01 .s01-wrap {
-        max-width: 1024px;
-        margin: 0 auto;
+    #s01 .swiper-slide video {
+        width: 100%;
+        height: auto;
     }
-
+    
     #s02 {
         width: 100%;
         margin-bottom: 80px;
@@ -465,8 +464,7 @@
     }
 
     #s02 .products {
-        max-width: 1024px;
-        margin: 0 auto;
+        width: 100%;
     }
 
     #s02 .products .s02-title {
@@ -492,11 +490,11 @@
     }
 
     #s02 .products .s02-content figure {
-        height: 140px;
+        height: 160px;
     }
     
     #s02 .products .s02-content figure img {
-        width: 130px;
+        width: 150px;
     }
 
     #s02 .products .s02-content .s02-hover {
@@ -523,17 +521,22 @@
     }
     
     #s02 .products .swiper-wrap {
-        margin-right: 0;
+        margin: 0 auto;
     }
+
+    #s02 .products .swiper-container {
+        width: 800px;
+        height: 300px;
+    }   
 
     #s03 {
         width: 100%;
+        height: 800px;
         margin-bottom: 80px;
     }
 
     #s03 .event {
-        max-width: 1024px;
-        margin: 0 auto;
+        width: 100%;
     }
 
     #s03 .event .s03-title {
@@ -576,11 +579,6 @@
         margin-bottom: 80px;
     }
 
-    #s04 .store {
-        max-width: 1024px;
-        margin: 0 auto;
-    }
-
     #s04 .store .s04-title {
         position: unset;
     }
@@ -620,12 +618,6 @@
         margin-bottom: 80px;
     }
 
-    #s05 .delivery {
-        max-width: 1024px;
-        margin: 0 auto;
-        height: 100%;
-    }
-
     #s05 .delivery .s05-title {
         position: unset;
     }
@@ -659,11 +651,6 @@
     
     #s06 {
         margin-bottom: 80px;
-    }
-
-    #s06 .business {
-        max-width: 1024px;
-        margin: 0 auto;
     }
 
     #s06 .business .s06-title {
@@ -750,9 +737,9 @@
         margin-bottom: 80px;
     }
 
-    #s01 .s01-wrap {
-        max-width: 768px;
-        margin: 0 auto;
+    #s01 .swiper-slide video {
+        width: 100%;
+        height: auto;
     }
 
     #s02 {
@@ -762,7 +749,7 @@
     }
 
     #s02 .products {
-        max-width: 768px;
+        width: 100%;
         margin: 0 auto;
         height: auto;
     }
@@ -819,13 +806,20 @@
     }
     
     #s02 .products .swiper-wrap {
-        margin-right: 0;
+        width: 100%;
     }
 
     #s02 .products .swiper-container {
         width: 800px;
         height: 300px;
-        padding: 0 30px;
+    }    
+
+    #s02 .products .swiper-button-next {
+        padding-right: 20px;
+    }
+
+    #s02 .products .swiper-button-prev {
+        padding-right: 20px;
     }
 
     #s03 {
@@ -834,9 +828,8 @@
     }
 
     #s03 .event {
-        max-width: 768px;
-        margin: 0 auto;
-    }
+        width: 100%;    
+    }   
 
     #s03 .event .s03-title {
         position: unset;
@@ -863,10 +856,7 @@
     #s03 .event .s03-content {
         width: 720px;
         margin: 0 auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        position: unset;
+        display: block;
     }
     
     #s03 .event .s03-content img {
@@ -876,11 +866,6 @@
     #s04 {
         width: 100%;
         margin-bottom: 80px;
-    }
-
-    #s04 .store {
-        max-width: 768px;
-        margin: 0 auto;
     }
 
     #s04 .store .s04-title {
@@ -923,8 +908,6 @@
     }
 
     #s05 .delivery {
-        max-width: 768px;
-        margin: 0 auto;
         height: 100%;
     }
 
@@ -961,11 +944,6 @@
     
     #s06 {
         margin-bottom: 80px;
-    }
-
-    #s06 .business {
-        max-width: 768px;
-        margin: 0 auto;
     }
 
     #s06 .business .s06-title {
@@ -1052,9 +1030,9 @@
         margin-bottom: 80px;
     }
 
-    #s01 .s01-wrap {
-        max-width: 480px;
-        margin: 0 auto;
+    #s01 .swiper-slide video {
+        width: 100%;
+        height: auto;
     }
 
     #s02 {
@@ -1064,7 +1042,7 @@
     }
 
     #s02 .products {
-        max-width: 480px;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -1091,16 +1069,27 @@
     }
 
     #s02 .products .s02-content figure {
-        height: 120px;
+        height: 180px;
     }
     
     #s02 .products .s02-content figure img {
-        width: 100px;
+        width: 160px;
     }
+
+
+    #s02 .products .swiper-wrap {
+        width: 100%;
+    }
+
+    #s02 .products .swiper-container {
+        width: 100%;
+        height: 300px;
+    }    
+
 
     #s02 .products .s02-content p {
         font-family: 'scdream4', sans-serif;
-        font-size: 0.7em;
+        font-size: 1em;
         text-align: center;
     }
     
@@ -1121,25 +1110,10 @@
         top: 45%;
     }
 
-    #s02 .products .swiper-wrap {
-        margin-right: 0;
-    }
-
-    #s02 .products .swiper-container {
-        width: 290px;
-        height: 300px;
-        padding: 0 90px;
-    }
-
     #s03 {
         width: 100%;
         height: 550px;
         margin-bottom: 80px;
-    }
-
-    #s03 .event {
-        max-width: 480px;
-        margin: 0 auto;
     }
 
     #s03 .event .s03-title::after {
@@ -1180,11 +1154,6 @@
     #s04 {
         width: 100%;
         margin-bottom: 80px;
-    }
-
-    #s04 .store {
-        max-width: 480px;
-        margin: 0 auto;
     }
 
     #s04 .store .s04-title::before {
@@ -1246,8 +1215,6 @@
     }
 
     #s05 .delivery {
-        max-width: 480px;
-        margin: 0 auto;
         height: 100%;
     }
 
@@ -1287,7 +1254,6 @@
     }
 
     #s06 .business {
-        max-width: 480px;
         margin: 0 auto;
     }
 
@@ -1386,9 +1352,9 @@
         margin-bottom: 80px;
     }
 
-    #s01 .s01-wrap {
-        max-width: 300px;
-        margin: 0 auto;
+    #s01 .swiper-slide video {
+        width: 100%;
+        height: auto;
     }
 
     #s02 {
@@ -1398,8 +1364,7 @@
     }
 
     #s02 .products {
-        max-width: 300px;
-        margin: 0 auto;
+        width: 100%;
     }
 
     #s02 .products .s02-title::before {
@@ -1425,16 +1390,16 @@
     }
 
     #s02 .products .s02-content figure {
-        height: 120px;
+        height: 180px;
     }
     
     #s02 .products .s02-content figure img {
-        width: 95px;
+        width: 150px;
     }
 
     #s02 .products .s02-content p {
         font-family: 'scdream4', sans-serif;
-        font-size: 0.7em;
+        font-size: 1em;
         text-align: center;
     }
     
@@ -1456,14 +1421,13 @@
     }
 
     #s02 .products .swiper-wrap {
-        margin-right: 0;
+        width: 100%;
     }
 
     #s02 .products .swiper-container {
-        width: 145px;
+        width: 100%;
         height: 300px;
-        padding: 0 30px;
-    }
+    }    
 
     #s03 {
         width: 100%;
@@ -1472,8 +1436,7 @@
     }
 
     #s03 .event {
-        max-width: 300px;
-        margin: 0 auto;
+        width: 100%;
     }
 
     #s03 .event .s03-title::after {
@@ -1515,10 +1478,9 @@
         width: 100%;
         margin-bottom: 80px;
     }
-
+    
     #s04 .store {
-        max-width: 300px;
-        margin: 0 auto;
+        width: 100%;
     }
 
     #s04 .store .s04-title::before {
@@ -1585,8 +1547,6 @@
     }
 
     #s05 .delivery {
-        max-width: 300px;
-        margin: 0 auto;
         height: 100%;
     }
 
@@ -1626,8 +1586,7 @@
     }
 
     #s06 .business {
-        max-width: 300px;
-        margin: 0 auto;
+        width: 100%;
     }
 
     #s06 .business .s06-title {

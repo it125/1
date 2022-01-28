@@ -159,9 +159,8 @@ table {
 }
 
 #header .h-wrap {
-	max-width: 1440px;
-	margin: 0 auto;
-	margin-top: 20px;
+	width: 100%;
+	margin: 20px auto;
 }
 
 #header h1 {
@@ -188,7 +187,7 @@ table {
 #header .search {
 	position: absolute;
 	top: -5px;
-	left: 0;
+	left: 50px;
 }
 
 #header .nav-right {
@@ -212,7 +211,7 @@ table {
 #header .hamburger {
 	position: absolute;
 	top: -5px;
-	right: 0;
+	right: 50px;
 }
 
 #header nav .gnb > li > a::after {
@@ -397,20 +396,12 @@ table {
 
 /* 미디어쿼리 */
 @media all and (min-width: 1024px) and (max-width: 1300px) {
-	#header {
-		width: 100%;
-	}
-
-	#header .h-wrap {
-        max-width: 1024px;
-	}
-	
 	#header .gnb {
 		display: none;
 	}
+
 	#footer .f-wrap {
-		max-width: 1024px;
-		margin: 0 auto;
+		width: 100%;
 	}
 
 	#footer .f-info1 {
@@ -418,16 +409,11 @@ table {
 	}
 } 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-	#header .h-wrap {
-        max-width: 768px;
-	}
-
 	#header .gnb {
 		display: none;
 	}
 
 	#footer .f-wrap {
-		max-width: 768px;
 		margin: 0 auto;
 	}
 
@@ -436,17 +422,12 @@ table {
 	}
 } 
 @media all and (min-width: 480px) and (max-width: 767px) {
-	#header .h-wrap {
-        max-width: 480px;
-	}
-
-    #header .gnb {
+	#header .gnb {
 		display: none;
 	}
 
 	#footer .f-wrap {
-		max-width: 480px;
-		margin: 0 auto;
+		width: 100%;
 	}
 
 	#footer .f-info1 {
@@ -474,22 +455,14 @@ table {
 	}
 }
 @media all and (max-width: 479px) {
-	#header .h-wrap {
-        max-width: 479px;
-	}
-
     #header .gnb {
 		display: none;
 	}
 
-	#footer {
-	}
-
 	#footer .f-wrap {
-		max-width: 479px;
-		margin: 0 auto;
+		width: 100%;
 	}
-
+	
 	#footer .f-info1 {
 		display: none;
 	}
