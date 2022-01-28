@@ -277,11 +277,12 @@ table {
 }
 #header .search-active {
     width: 100%;
-	background: #ffb10a;
-    position: absolute;
+	position: absolute;
 	top: 0;
+	background: #ffb10a;
 	height: 70px;
 	z-index: 20;
+	padding-left: 220px;
 }
 
 #header .search-active input {
@@ -292,8 +293,6 @@ table {
     width: 500px;
 	border: 0;
 	padding: 15px;
-	float: left;
-
 }
 
 #header button {
@@ -302,8 +301,16 @@ table {
 	background: #fff;
 	border: unset;
 	cursor: pointer;
+	position: absolute;
 }
 
+#header .search-close {
+	width: 100%;
+	position: absolute;
+	top: 10px;
+	left: 780px;
+	cursor: pointer;
+}
 
 /* footer */
 #footer {
