@@ -810,7 +810,7 @@
     }
 
     #s02 .products .swiper-container {
-        width: 800px;
+        width: 100%;
         height: 300px;
     }    
 
@@ -823,12 +823,13 @@
     }
 
     #s03 {
-        width: 100%;
         margin-bottom: 80px;
+        height: 760px;
+        margin: 0 auto;
     }
 
     #s03 .event {
-        width: 100%;    
+        width: 100%;
     }   
 
     #s03 .event .s03-title {
@@ -854,18 +855,25 @@
     }
 
     #s03 .event .s03-content {
-        width: 720px;
+        width: 620px;
         margin: 0 auto;
-        display: block;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: unset;
     }
     
     #s03 .event .s03-content img {
-        width: 350px;
+        width: 300px;
     }
 
     #s04 {
         width: 100%;
         margin-bottom: 80px;
+    }
+
+    #s04 .store {
+        width: 100%;
     }
 
     #s04 .store .s04-title {
@@ -908,6 +916,7 @@
     }
 
     #s05 .delivery {
+        width: 100%;
         height: 100%;
     }
 
@@ -944,6 +953,10 @@
     
     #s06 {
         margin-bottom: 80px;
+    }
+
+    #s06 .business {
+        width: 100%;
     }
 
     #s06 .business .s06-title {
@@ -1043,7 +1056,6 @@
 
     #s02 .products {
         width: 100%;
-        margin: 0 auto;
     }
 
     #s02 .products .s02-title::before {
@@ -1076,7 +1088,6 @@
         width: 160px;
     }
 
-
     #s02 .products .swiper-wrap {
         width: 100%;
     }
@@ -1085,7 +1096,6 @@
         width: 100%;
         height: 300px;
     }    
-
 
     #s02 .products .s02-content p {
         font-family: 'scdream4', sans-serif;
@@ -1111,9 +1121,17 @@
     }
 
     #s03 {
+        padding-bottom: 80px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #s03 .event {
         width: 100%;
-        height: 550px;
-        margin-bottom: 80px;
+    }   
+
+    #s03 .event .s03-title {
+        position: unset;
     }
 
     #s03 .event .s03-title::after {
@@ -1134,26 +1152,45 @@
         margin-bottom: 30px;
     }
 
-    #s03 .event .s03-title h2 {
-        font-size: 2em;
-    }
-
     #s03 .event .s03-content {
-        width: 720px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        width: 100%;
+        display: block;
         position: unset;
+        text-align: center;
     }
     
     #s03 .event .s03-content img {
-        width: 230px;
+        width: 100%;
+    }
+
+    #s03 .event .s03-content .event1 figure {
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+    
+    #s03 .event .s03-content .event2 figure {
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+    
+    #s03 .event .s03-content .event3 figure {
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+    
+    #s03 .event .s03-content .event4 figure {
+        padding-right: 0;
+        padding-bottom: 0;
     }
 
     #s04 {
         width: 100%;
-        margin-bottom: 80px;
+        margin: unset;
+        padding-bottom: 80px;
+    }
+
+    #s04 .store {
+        width: 100%;
     }
 
     #s04 .store .s04-title::before {
@@ -1183,12 +1220,12 @@
     }
 
     #s04 .s04-content .search-box figure img {
-        width: 500px;
+        width: 100%;
     }
     
     #s04 .s04-content .search-bar {
         position: absolute;
-        left: 18%;
+        left: 28%;
     }
 
     #s04 .s04-content .search-bar input {
@@ -1210,11 +1247,12 @@
     }
 
     #s05 {
-        width: 100%;
-        margin-bottom: 80px;
+        margin: unset;
+        padding-bottom: 80px;
     }
 
     #s05 .delivery {
+        width: 100%;
         height: 100%;
     }
 
@@ -1246,15 +1284,16 @@
     }
     
     #s05 .s05-content figure img {
-        width: 500px;
+        width: 100%;
     }
     
     #s06 {
-        margin-bottom: 80px;
+        margin: unset;
+        padding-bottom: 80px;
     }
 
     #s06 .business {
-        margin: 0 auto;
+        width: 100%;
     }
 
     #s06 .business .s06-title::before {
@@ -1280,21 +1319,24 @@
     }
 
     #s06 .s06-content {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        position: unset;
+        display: inline-block;
     }
     
     #s06 .s06-content .recruit {
-        margin-right: 40px;
+        margin: unset;
+    }
+    
+    #s06 .s06-content figure {
+        margin-bottom: 30px;
     }
 
     #s06 .s06-content figure img {
-        width: 200px;
+        max-width: 480px;
     }
     
     #s06 .s06-content .recruit > p {
+        display: none;
         font-family: 'scdream5', sans-serif;
         font-size: 1.3em;
         text-align: center;
@@ -1302,6 +1344,7 @@
     }
 
     #s06 .s06-content .open-store > p {
+        display: none;
         font-family: 'scdream5', sans-serif;
         font-size: 1.3em;
         text-align: center;
@@ -1331,7 +1374,7 @@
     }
     
     #s06 .s06-content .recruit:hover .recruit-hover {
-        display: block;
+        display: none;
     }
 
     #s06 .s06-content .recruit:hover .recruit-hover p {
@@ -1339,7 +1382,7 @@
     }
 
     #s06 .s06-content .open-store:hover .open-hover {
-        display: block;
+        display: none;
     }
 
     #s06 .s06-content .open-hover p {
@@ -1386,7 +1429,7 @@
     }
 
     #s02 .products .s02-title h2 {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
     #s02 .products .s02-content figure {
@@ -1394,8 +1437,17 @@
     }
     
     #s02 .products .s02-content figure img {
-        width: 150px;
+        width: 160px;
     }
+
+    #s02 .products .swiper-wrap {
+        width: 100%;
+    }
+
+    #s02 .products .swiper-container {
+        width: 100%;
+        height: 300px;
+    }    
 
     #s02 .products .s02-content p {
         font-family: 'scdream4', sans-serif;
@@ -1420,23 +1472,18 @@
         top: 45%;
     }
 
-    #s02 .products .swiper-wrap {
-        width: 100%;
-    }
-
-    #s02 .products .swiper-container {
-        width: 100%;
-        height: 300px;
-    }    
-
     #s03 {
-        width: 100%;
-        height: 380px;
-        margin-bottom: 80px;
+        padding-bottom: 80px;
+        height: auto;
+        margin: 0 auto;
     }
 
     #s03 .event {
         width: 100%;
+    }   
+
+    #s03 .event .s03-title {
+        position: unset;
     }
 
     #s03 .event .s03-title::after {
@@ -1457,28 +1504,43 @@
         margin-bottom: 30px;
     }
 
-    #s03 .event .s03-title h2 {
-        font-size: 1.5em;
-    }
-
     #s03 .event .s03-content {
-        width: 320px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        position: relative;
+        width: 100%;
+        display: block;
+        position: unset;
+        text-align: center;
     }
     
     #s03 .event .s03-content img {
-        width: 140px;
+        width: 100%;
+    }
+
+    #s03 .event .s03-content .event1 figure {
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+    
+    #s03 .event .s03-content .event2 figure {
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+    
+    #s03 .event .s03-content .event3 figure {
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+    
+    #s03 .event .s03-content .event4 figure {
+        padding-right: 0;
+        padding-bottom: 0;
     }
 
     #s04 {
         width: 100%;
-        margin-bottom: 80px;
+        margin: unset;
+        padding-bottom: 80px;
     }
-    
+
     #s04 .store {
         width: 100%;
     }
@@ -1502,7 +1564,7 @@
     }
 
     #s04 .store .s04-title h2 {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
     #s04 .s04-content .search-box {
@@ -1510,20 +1572,19 @@
     }
 
     #s04 .s04-content .search-box figure img {
-        width: 300px;
+        width: 100%;
     }
     
     #s04 .s04-content .search-bar {
         position: absolute;
-        top: 50%;
-        left: 23%;
+        left: 28%;
     }
-    
+
     #s04 .s04-content .search-bar input {
         font-family: 'scdream4', sans-serif;
-        font-size: 0.5em;
-        width: 150px;
-        height: 20px;
+        font-size: 1em;
+        width: 300px;
+        height: 50px;
         padding: 15px;
         border: none;
         background: #fff;
@@ -1532,21 +1593,18 @@
     
     #s04 .s04-content .search-bar button {
         float: right;
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         border: none;
     }
 
-    #s04 .s04-content .search-bar button img {
-        width: 30px;
-    }
-
     #s05 {
-        width: 100%;
-        margin-bottom: 80px;
+        margin: unset;
+        padding-bottom: 80px;
     }
 
     #s05 .delivery {
+        width: 100%;
         height: 100%;
     }
 
@@ -1569,7 +1627,7 @@
     }
 
     #s05 .delivery .s05-title h2 {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
     #s05 .s05-content figure {
@@ -1578,19 +1636,16 @@
     }
     
     #s05 .s05-content figure img {
-        width: 300px;
+        width: 100%;
     }
-
+    
     #s06 {
-        margin-bottom: 80px;
+        margin: unset;
+        padding-bottom: 80px;
     }
 
     #s06 .business {
         width: 100%;
-    }
-
-    #s06 .business .s06-title {
-        position: unset;
     }
 
     #s06 .business .s06-title::before {
@@ -1612,44 +1667,77 @@
     }
 
     #s06 .business .s06-title h2 {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
     #s06 .s06-content {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        position: unset;
+        display: inline-block;
     }
     
     #s06 .s06-content .recruit {
-        margin-right: 40px;
+        margin: unset;
+    }
+    
+    #s06 .s06-content figure {
+        margin-bottom: 30px;
     }
 
     #s06 .s06-content figure img {
-        width: 150px;
+        width: 700px;
     }
     
-
     #s06 .s06-content .recruit > p {
+        display: none;
         font-family: 'scdream5', sans-serif;
-        font-size: 1em;
+        font-size: 1.3em;
         text-align: center;
         margin-top: 20px;
     }
 
     #s06 .s06-content .open-store > p {
+        display: none;
         font-family: 'scdream5', sans-serif;
-        font-size: 1em;
+        font-size: 1.3em;
         text-align: center;
         margin-top: 20px;
+    }
+
+    #s06 .s06-content .recruit-hover {
+        display: none;
+        width: 200px;
+        height: 226px;
+        position: absolute;
+        top: 0;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 12px;
+        animation: fade .5s;
+    }
+
+    #s06 .s06-content .open-store > .open-hover {
+        display: none;
+        width: 200px;
+        height: 226px;
+        position: absolute;
+        top: 0;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 12px;
+        animation: fade .5s;
     }
     
     #s06 .s06-content .recruit:hover .recruit-hover {
         display: none;
     }
 
+    #s06 .s06-content .recruit:hover .recruit-hover p {
+        font-size: 1em;
+    }
+
     #s06 .s06-content .open-store:hover .open-hover {
         display: none;
+    }
+
+    #s06 .s06-content .open-hover p {
+        font-size: 1em;
     }
 }
