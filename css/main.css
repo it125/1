@@ -274,6 +274,10 @@
     border: none;
 }
 
+#s04 .s04-content .search-bar button img {
+    width: 50px;
+}
+
 #s05 {
     width: 100%;
     margin-bottom: 150px;

@@ -167,6 +167,10 @@ table {
 	text-align: center;
 }
 
+#header h1 img {
+	width: 200px;
+}
+
 #header nav {
 	position: relative;
 	bottom: 25px;
@@ -188,6 +192,10 @@ table {
 	position: absolute;
 	top: -5px;
 	left: 50px;
+}
+
+#header .search img {
+	width: 23px;
 }
 
 #header .nav-right {
@@ -212,6 +220,10 @@ table {
 	position: absolute;
 	top: -5px;
 	right: 50px;
+}
+
+#header nav .hamburger img {
+	width: 23px;
 }
 
 #header nav .gnb > li > a::after {
@@ -285,6 +297,10 @@ table {
 	padding-left: 220px;
 }
 
+#header .search-active {
+	width: 30px;
+}
+
 #header .search-active input {
 	font-family: 'scdream3', sans-serif;
 	font-size: 1em;
@@ -310,6 +326,10 @@ table {
 	top: 10px;
 	left: 780px;
 	cursor: pointer;
+}
+
+#header .search-close img {
+	width: 20px;
 }
 
 /* footer */
@@ -344,6 +364,22 @@ table {
 
 #footer figure {
 	display: inline-block;
+}
+
+#footer .instagram img {
+	width: 20px;
+}
+
+#footer .facebook img {
+	width: 10px;
+}
+
+#footer .twitter img {
+	width: 20px;
+}
+
+#footer .kakao img {
+	width: 20px;
 }
 
 #footer .f-info1 {
@@ -385,6 +421,11 @@ table {
 }
 
 #footer .f-info2 ul li span {
+	font-family: 'SpoqaHanSansNeo-Regular', sans-serif;
+	color: #fff;
+}
+
+#footer address {
 	font-family: 'SpoqaHanSansNeo-Regular', sans-serif;
 	color: #fff;
 }
