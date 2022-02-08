@@ -2,82 +2,73 @@
 
 /* 폰트 */
 @font-face {
-	font-family: 'scdream1';
-	src: url('../font/scdream1.woff') format('woff');
-	src: url('../font/scdream1.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'scdream1';
+    src: url("../font/scdream1.woff") format('woff');
+    src: url("../font/scdream1.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'scdream2';
-	src: url('../font/scdream2.woff') format('woff');
-	src: url('../font/scdream2.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'scdream2';
+    src: url("../font/scdream2.woff") format('woff');
+    src: url("../font/scdream2.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'scdream3';
-	src: url('../font/scdream3.woff') format('woff');
-	src: url('../font/scdream3.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'scdream3';
+    src: url("../font/scdream3.woff") format('woff');
+    src: url("../font/scdream3.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'scdream4';
-	src: url('../font/scdream4.woff') format('woff');
-	src: url('../font/scdream4.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'scdream4';
+    src: url("../font/scdream4.woff") format('woff');
+    src: url("../font/scdream4.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'scdream5';
-	src: url('../font/scdream5.woff') format('woff');
-	src: url('../font/scdream5.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'scdream5';
+    src: url("../font/scdream5.woff") format('woff');
+    src: url("../font/scdream5.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'scdream6';
-	src: url('../font/scdream6.woff') format('woff');
-	src: url('../font/scdream6.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'scdream6';
+    src: url("../font/scdream6.woff") format('woff');
+    src: url("../font/scdream6.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'scdream7';
-	src: url('../font/scdream7.woff') format('woff');
-	src: url('../font/scdream7.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'scdream7';
+    src: url("../font/scdream7.woff") format('woff');
+    src: url("../font/scdream7.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'scdream8';
-	src: url('../font/scdream8.woff') format('woff');
-	src: url('../font/scdream8.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'scdream8';
+    src: url("../font/scdream8.woff") format('woff');
+    src: url("../font/scdream8.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'scdream9';
-	src: url('../font/scdream9.woff') format('woff');
-	src: url('../font/scdream9.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-    font-family: 'SpoqaHanSansNeo-Regular';
-    src: url('../font/SpoqaHanSansNeo-Regular.eot') format('eot');
-    src: url('../font/SpoqaHanSansNeo-Regular.woff') format('woff');
-    src: url('../font/SpoqaHanSansNeo-Regular.woff2') format('woff2');
+    font-family: 'scdream9';
+    src: url("../font/scdream9.woff") format('woff');
+    src: url("../font/scdream9.woff2") format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -97,133 +88,208 @@ img {
     border: 0;
 }
 
-html, body, div, span, applet, object, iframe,
-p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 ::selection {
-	background: #ffb10a;
+    background: #ffb10a;
 }
 
 .wrap {
-	width: 100%;
+    width: 100%;
 }
 
 /* header */
 #header {
-	width: 100%;
-	height: 70px;
-	z-index: 10;
-	position: fixed;
-	background: #ffb10a;
+    width: 100%;
+    height: 70px;
+    z-index: 10;
+    position: fixed;
+    background: #ffb10a;
 }
 
 #header .h-wrap {
-	width: 100%;
-	margin: 20px auto;
+    width: 100%;
+    margin: 20px auto;
 }
 
 #header h1 {
-	text-align: center;
+    text-align: center;
 }
 
 #header h1 img {
-	width: 200px;
+    width: 200px;
 }
 
 #header nav {
-	position: relative;
-	bottom: 25px;
+    position: relative;
+    bottom: 25px;
 }
 
 #header .nav-left {
-	width: 50%;
-	text-align: center;
-	float: left;
+    width: 50%;
+    text-align: center;
+    float: left;
 }
 
 #header .nav-left > .gnb > li {
-	width: 180px;
-	display: inline-block;
-	vertical-align: top;
+    width: 180px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 #header .search {
-	position: absolute;
-	top: -5px;
-	left: 50px;
+    position: absolute;
+    top: -5px;
+    left: 50px;
 }
 
 #header .search img {
-	width: 23px;
+    width: 23px;
 }
 
 #header .nav-right {
-	width: 50%;
-	text-align: center;
-	float: left;
+    width: 50%;
+    text-align: center;
+    float: left;
 }
 
 #header .nav-right > .gnb > li {
-	width: 180px;
-	display: inline-block;
-	vertical-align: top;
+    width: 180px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 #header .gnb > li > a {
-	font-family: 'scdream5', sans-serif;
-	color: #fff;
-	position: relative;
+    font-family: 'scdream5', sans-serif;
+    color: #fff;
+    position: relative;
 }
 
 #header .hamburger {
-	position: absolute;
-	top: -5px;
-	right: 50px;
+    position: absolute;
+    top: -5px;
+    right: 50px;
 }
 
 #header nav .hamburger img {
-	width: 23px;
+    width: 23px;
 }
 
 #header nav .gnb > li > a::after {
@@ -241,7 +307,7 @@ table {
 #header nav .gnb > li:hover > a::after {
     content: '';
     width: 100%;
-    left: 0px;
+    left: 0;
     height: 1px;
     display: block;
     position: absolute;
@@ -251,281 +317,417 @@ table {
 }
 
 #header nav .gnb > li:hover > a {
-	color: #000;
-	transition: 0.4s ease;
+    color: #000;
+    transition: 0.4s ease;
 }
 
 #header .gnb li:hover .lnb {
-	display: block;
-} 
+    display: block;
+}
 
 #header .lnb {
-	width: 180px;
-	margin-top: 27px;
-	background: rgba(0, 0, 0, 0.8);
-	text-align: center;
-	display: none;
+    width: 180px;
+    margin-top: 27px;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    display: none;
 }
 
 #header .lnb > li {
-	padding: 20px;
+    padding: 20px;
 }
 
 #header .lnb > li > a {
-	font-family: 'scdream4', sans-serif;
-	color: #fff;
-	font-size: 0.85em;
+    font-family: 'scdream4', sans-serif;
+    color: #fff;
+    font-size: 0.85em;
 }
 
 #header .lnb > li:hover {
-	background:#fff;
-	transition: 0.4s ease;
-	display: block; 
+    background: #fff;
+    transition: 0.4s ease;
+    display: block;
 }
 
 #header .lnb > li:hover > a {
-	color: #000;
+    color: #000;
 }
 #header .search-active {
-	display: none;
+    display: none;
     width: 100%;
-	position: absolute;
-	top: 0;
-	background: #ffb10a;
-	height: 70px;
-	z-index: 20;
-	padding-left: 220px;
+    position: absolute;
+    top: 0;
+    background: #ffb10a;
+    height: 70px;
+    z-index: 20;
+    padding-left: 220px;
 }
 
 #header .search-active {
-	width: 30px;
+    width: 30px;
 }
 
 #header .search-active input {
-	font-family: 'scdream3', sans-serif;
-	font-size: 1em;
+    font-family: 'scdream3', sans-serif;
+    font-size: 1em;
     background: #fff;
     height: 45px;
     width: 500px;
-	border: 0;
-	padding: 15px;
+    border: 0;
+    padding: 15px;
 }
 
 #header button {
-	width: 45px;
-	height: 45px;
-	background: #fff;
-	border: unset;
-	cursor: pointer;
-	position: absolute;
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    border: unset;
+    cursor: pointer;
+    position: absolute;
 }
 
 #header .search-close {
-	width: 100%;
-	position: absolute;
-	top: 10px;
-	left: 780px;
-	cursor: pointer;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left: 780px;
+    cursor: pointer;
 }
 
 #header .search-close img {
-	width: 20px;
+    width: 20px;
 }
 
 /* footer */
 #footer {
-	width: 100%;
-	background: #ffb10a;
+    width: 100%;
+    background: #ffb10a;
 }
 
 #footer .f-wrap {
-	width: 100%;
-	text-align: center;
-	padding-top: 40px;
-	padding-bottom: 40px;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #footer .sns {
-	margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 #footer .sns > div {
-	display: inline-block;
+    display: inline-block;
 }
 
 #footer .sns span {
-	position: relative;
-	left: 3px;
-	bottom: 3px;
-	margin-right: 30px;
-	font-family: 'SpoqaHanSansNeo-Regular', sans-serif;
-	color: #fff;
+    position: relative;
+    left: 3px;
+    bottom: 3px;
+    margin-right: 30px;
+    font-family: 'SpoqaHanSansNeo-Regular', sans-serif;
+    color: #fff;
 }
 
 #footer figure {
-	display: inline-block;
+    display: inline-block;
 }
 
 #footer .instagram img {
-	width: 20px;
+    width: 20px;
 }
 
 #footer .facebook img {
-	width: 10px;
+    width: 10px;
 }
 
 #footer .twitter img {
-	width: 20px;
+    width: 20px;
 }
 
 #footer .kakao img {
-	width: 20px;
+    width: 20px;
 }
 
 #footer .f-info1 {
-	margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 #footer .f-info1 ul li {
-	display: inline-block;
-	margin-right: 20px;
+    display: inline-block;
+    margin-right: 20px;
 }
 
 #footer .f-info1 ul li a {
-	font-family: 'SpoqaHanSansNeo-Regular', sans-serif;
-	color: #fff;
+    font-family: 'SpoqaHanSansNeo-Regular', sans-serif;
+    color: #fff;
 }
 
 #footer .f-info1 ul li:nth-child(5) a {
-	color: orangered;
+    color: orangered;
 }
 
 #footer .f-info2 {
-	margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 #footer .f-info2 ul li {
-	margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 #footer .f-info2 ul li:nth-child(3) {
-	display: inline-block;
+    display: inline-block;
 }
 
 #footer .f-info2 ul li:nth-child(4) {
-	display: inline-block;
+    display: inline-block;
 }
 
 #footer .f-info2 ul li:nth-child(5) {
-	display: inline-block;
+    display: inline-block;
 }
 
 #footer .f-info2 ul li span {
-	font-family: 'SpoqaHanSansNeo-Regular', sans-serif;
-	color: #fff;
+    font-family: 'SpoqaHanSansNeo-Regular', sans-serif;
+    color: #fff;
 }
 
 #footer address {
-	font-family: 'SpoqaHanSansNeo-Regular', sans-serif;
-	color: #fff;
+    font-family: 'SpoqaHanSansNeo-Regular', sans-serif;
+    color: #fff;
 }
 
 #footer .copyright {
-	font-family: 'SpoqaHanSansNeo-Regular', sans-serif;
-	color: #fff;
+    font-family: 'SpoqaHanSansNeo-Regular', sans-serif;
+    color: #fff;
 }
 
 /* 미디어쿼리 */
 @media all and (min-width: 1024px) and (max-width: 1300px) {
-	#header .gnb {
-		display: none;
-	}
+    #header .gnb {
+        display: none;
+    }
 
-	#footer .f-wrap {
-		width: 100%;
-	}
+    #footer .f-wrap {
+        width: 100%;
+    }
 
-	#footer .f-info1 {
-		display: none;
-	}
-} 
+    #footer .f-info1 {
+        display: none;
+    }
+}
 @media all and (min-width: 768px) and (max-width: 1023px) {
-	#header .gnb {
-		display: none;
-	}
+    #header .gnb {
+        display: none;
+    }
 
-	#footer .f-wrap {
-		margin: 0 auto;
-	}
+    #footer .f-wrap {
+        margin: 0 auto;
+    }
 
-	#footer .f-info1 {
-		display: none;
-	}
-} 
+    #footer .f-info1 {
+        display: none;
+    }
+}
 @media all and (min-width: 480px) and (max-width: 767px) {
-	#header .gnb {
-		display: none;
-	}
+    #header .gnb {
+        display: none;
+    }
 
-	#footer .f-wrap {
-		width: 100%;
-	}
+    #footer .f-wrap {
+        width: 100%;
+    }
 
-	#footer .f-info1 {
-		display: none;
-	}
+    #footer .f-info1 {
+        display: none;
+    }
 
-	#footer .sns span {
-		display: none;
-	}
+    #footer .sns span {
+        display: none;
+    }
 
-	#footer figure {
-		margin-right: 20px;
-	}
+    #footer figure {
+        margin-right: 20px;
+    }
 
-	#footer figure:last-child {
-		margin-right: 0;
-	}
+    #footer figure:last-child {
+        margin-right: 0;
+    }
 
-	#footer .f-info2 {
-		display: none;
-	}
+    #footer .f-info2 {
+        display: none;
+    }
 
-	#footer .copyright {
-		font-size: 0.9em;
-	}
+    #footer .copyright {
+        font-size: 0.9em;
+    }
 }
 @media all and (max-width: 479px) {
     #header .gnb {
-		display: none;
-	}
+        display: none;
+    }
 
-	#footer .f-wrap {
-		width: 100%;
+    #footer .f-wrap {
+        width: 100%;
+    }
+
+    #footer .f-info1 {
+        display: none;
+    }
+
+    #footer .sns span {
+        display: none;
+    }
+
+    #footer figure {
+        margin-right: 20px;
+    }
+
+    #footer figure:last-child {
+        margin-right: 0;
+    }
+
+    #footer .f-info2 {
+        display: none;
+    }
+
+    #footer .copyright {
+        font-size: 0.9em;
+    }
+
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	* {
+		margin: 0;
+		padding: 0;
 	}
 	
-	#footer .f-info1 {
-		display: none;
+	a {
+		text-decoration: none;
+		color: #000;
 	}
-
-	#footer .sns span {
-		display: none;
+	
+	img {
+		border: 0;
 	}
-
-	#footer figure {
-		margin-right: 20px;
+	
+	a,
+	abbr,
+	acronym,
+	address,
+	applet,
+	article,
+	aside,
+	audio,
+	b,
+	big,
+	blockquote,
+	body,
+	canvas,
+	caption,
+	center,
+	cite,
+	code,
+	dd,
+	del,
+	details,
+	dfn,
+	div,
+	dl,
+	dt,
+	em,
+	embed,
+	fieldset,
+	figcaption,
+	figure,
+	footer,
+	form,
+	header,
+	hgroup,
+	html,
+	i,
+	iframe,
+	img,
+	ins,
+	kbd,
+	label,
+	legend,
+	li,
+	mark,
+	menu,
+	nav,
+	object,
+	ol,
+	output,
+	p,
+	pre,
+	q,
+	ruby,
+	s,
+	samp,
+	section,
+	small,
+	span,
+	strike,
+	strong,
+	sub,
+	summary,
+	sup,
+	table,
+	tbody,
+	td,
+	tfoot,
+	th,
+	thead,
+	time,
+	tr,
+	tt,
+	u,
+	ul,
+	var,
+	video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
 	}
-
-	#footer figure:last-child {
-		margin-right: 0;
+	
+	/* HTML5 display-role reset for older browsers */
+	article,
+	aside,
+	details,
+	figcaption,
+	figure,
+	footer,
+	header,
+	hgroup,
+	menu,
+	nav,
+	section {
+		display: block;
 	}
-
-	#footer .f-info2 {
-		display: none;
+	body {
+		line-height: 1;
 	}
-
-	#footer .copyright {
-		font-size: 0.9em;
+	ol,
+	ul {
+		list-style: none;
 	}
-
+	blockquote,
+	q {
+		quotes: none;
+	}
+	blockquote:after,
+	blockquote:before,
+	q:after,
+	q:before {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
 }
